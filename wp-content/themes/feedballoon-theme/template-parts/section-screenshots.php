@@ -1,3 +1,3 @@
 <div class="">
-  screenshots
+  feedbacks
 </div>
