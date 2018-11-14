@@ -17,6 +17,7 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
+			BACKUP INDEX.PHP
 		<?php
 		if ( have_posts() ) :
 				?>
