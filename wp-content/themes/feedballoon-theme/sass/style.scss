@@ -32,8 +32,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Menu
 # Screenshots Section
 # Top Section
-# Typography
 # User Reviews Section
+# Variables
+# Typography
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -82,11 +83,15 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "top-section";
 
 /*--------------------------------------------------------------
-# Typography
---------------------------------------------------------------*/
-@import "typography";
-
-/*--------------------------------------------------------------
 # User Reviews Section
 --------------------------------------------------------------*/
 @import "user-reviews-section";
+
+/*--------------------------------------------------------------
+# Variables
+--------------------------------------------------------------*/
+@import "variables";
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography";
