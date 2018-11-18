@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA;;;;;;;;;;;;;;;;;;;;EAoBE;AAEF;;;;;;;;;;;;;;;gEAegE;AAEhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAEhE;;gEAEgE;AC/FhE,CAAC;EACC,WAAW,ECDD,oBAAoB",
-"sources": ["sass/style.scss","sass/_typography.scss","sass/_variables.scss"],
+"mappings": "AAAA;;;;;;;;;;;;;;;;;;;;EAoBE;AAEF;;;;;;;;;;;;;;;gEAegE;AAEhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AClEhE,SAAU;EACR,MAAM,EAAE,YAAY;;ADoEtB;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAEhE;;gEAEgE;AE/FhE,CAAC;EACC,WAAW,ECDD,oBAAoB",
+"sources": ["sass/style.scss","sass/_main-layout.scss","sass/_typography.scss","sass/_variables.scss"],
 "names": [],
 "file": "style.css"
 }
