@@ -47,22 +47,29 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+.footer li {
+  color: red;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 .header {
   background-color: pink;
-  height: 400px; }
+  height: 400px;
+}
 
 .menu ul {
   display: grid;
-  grid-template-columns: 1fr 1fr; }
+  grid-template-columns: 1fr 1fr;
+}
 
 /*--------------------------------------------------------------
 # Main Layout
 --------------------------------------------------------------*/
 .supports {
-  margin: 0 !important; }
+  margin: 0 !important;
+}
 
 /*--------------------------------------------------------------
 # Menu
@@ -83,6 +90,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Typography
 --------------------------------------------------------------*/
 * {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+}
 
 /*# sourceMappingURL=style.css.map */
