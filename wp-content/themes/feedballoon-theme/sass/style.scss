@@ -23,84 +23,75 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-# Normalize
-# Typography
-# Elements
-# Forms
-# Navigation
-	## Links
-	## Menus
-# Accessibility
-# Alignments
-# Clearings
-# Widgets
-# Content
-	## Posts and pages
-	## Comments
-# Infinite scroll
-# Media
-	## Captions
-	## Galleries
---------------------------------------------------------------*/
-@import "variables-site/variables-site";
-@import "mixins/mixins-master";
-
-/*--------------------------------------------------------------
-# Normalize
---------------------------------------------------------------*/
-@import "normalize";
-
-/*--------------------------------------------------------------
+# About Us
+# Contact
+# Feedback Section
+# Footer
+# Header
+# Main Layout
+# Menu
+# Screenshots Section
+# Top Section
+# User Reviews Section
+# Variables
 # Typography
 --------------------------------------------------------------*/
-@import "typography/typography";
 
 /*--------------------------------------------------------------
-# Elements
+# About Us
 --------------------------------------------------------------*/
-@import "elements/elements";
+@import "aboutus";
 
 /*--------------------------------------------------------------
-# Forms
+# Contact
 --------------------------------------------------------------*/
-@import "forms/forms";
+@import "contact";
 
 /*--------------------------------------------------------------
-# Navigation
+# Feedback Section
 --------------------------------------------------------------*/
-@import "navigation/navigation";
+@import "feedback-section";
 
 /*--------------------------------------------------------------
-# Accessibility
+# Footer
 --------------------------------------------------------------*/
-@import "modules/accessibility";
+@import "footer";
 
 /*--------------------------------------------------------------
-# Alignments
+# Header
 --------------------------------------------------------------*/
-@import "modules/alignments";
+@import "header";
 
 /*--------------------------------------------------------------
-# Clearings
+# Main Layout
 --------------------------------------------------------------*/
-@import "modules/clearings";
+@import "main-layout";
 
 /*--------------------------------------------------------------
-# Widgets
+# Menu
 --------------------------------------------------------------*/
-@import "site/secondary/widgets";
+@import "menu";
 
 /*--------------------------------------------------------------
-# Content
+# Screenshots Section
 --------------------------------------------------------------*/
-@import "site/site";
+@import "screenshots-section";
 
 /*--------------------------------------------------------------
-# Infinite scroll
+# Top Section
 --------------------------------------------------------------*/
-@import "modules/infinite-scroll";
+@import "top-section";
 
 /*--------------------------------------------------------------
-# Media
+# User Reviews Section
 --------------------------------------------------------------*/
-@import "media/media";
+@import "user-reviews-section";
+
+/*--------------------------------------------------------------
+# Variables
+--------------------------------------------------------------*/
+@import "variables";
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography";
