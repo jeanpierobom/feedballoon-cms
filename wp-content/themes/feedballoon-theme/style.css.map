@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA;;;;;;;;;;;;;;;;;;;;EAoBE;AAEF;;;;;;;;;;;;;;;gEAegE;AAEhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AClEhE,SAAU;EACR,MAAM,EAAE,YAAY;;ADoEtB;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAEhE;;gEAEgE;AE/FhE,CAAC;EACC,WAAW,ECDD,oBAAoB",
-"sources": ["sass/style.scss","sass/_main-layout.scss","sass/_typography.scss","sass/_variables.scss"],
+"mappings": "AAAA;;;;;;;;;;;;;;;;;;;;EAoBE;AAEF;;;;;;;;;;;;;;;gEAegE;AAEhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AC7DhE,OAAQ;EACN,gBAAgB,EAAE,IAAI;EACtB,MAAM,EAAE,KAAK;;AAGf,QAAS;EACP,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO;;ADyDhC;;gEAEgE;AElEhE,SAAU;EACR,MAAM,EAAE,YAAY;;AFoEtB;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAEhE;;gEAEgE;AG/FhE,CAAC;EACC,WAAW,ECDD,oBAAoB",
+"sources": ["sass/style.scss","sass/_header.scss","sass/_main-layout.scss","sass/_typography.scss","sass/_variables.scss"],
 "names": [],
 "file": "style.css"
 }

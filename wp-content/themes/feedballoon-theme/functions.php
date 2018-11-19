@@ -120,7 +120,7 @@ add_action( 'widgets_init', 'feedballoon_theme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function feedballoon_theme_scripts() {
-	wp_enqueue_style( 'feedballoon-theme-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'feedballoon-theme-style', get_stylesheet_uri(), array(), time() );
 
 	//GOOGLE FONTS
 	wp_enqueue_style( 'feedballoon-googlefont', 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');

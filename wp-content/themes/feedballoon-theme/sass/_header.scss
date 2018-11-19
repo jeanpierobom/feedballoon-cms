@@ -1,0 +1,9 @@
+.header {
+  background-color: pink;
+  height: 400px;
+}
+
+.menu ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

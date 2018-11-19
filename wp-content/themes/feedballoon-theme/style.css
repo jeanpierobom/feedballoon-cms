@@ -50,6 +50,14 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+.header {
+  background-color: pink;
+  height: 400px; }
+
+.menu ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
 /*--------------------------------------------------------------
 # Main Layout
 --------------------------------------------------------------*/
