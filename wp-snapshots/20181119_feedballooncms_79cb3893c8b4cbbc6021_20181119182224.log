@@ -1,0 +1,79 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: November 19, 2018 6:22 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.52
+WORDPRESS:	4.9.8
+PHP INFO:	7.2.8 | SAPI: apache2handler
+SERVER:		Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.8 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.9 Perl/v5.24.0 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (128M default) 
+MEMORY STACK: 2MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported 
+TABLES: total:19 | filtered:0 | create:19 
+FILTERED: [] 
+SQL CREATED: 20181119_feedballooncms_79cb3893c8b4cbbc6021_20181119182224_database.sql 
+SQL FILE SIZE: 598.9KB (613271) 
+SQL FILE TIME: 2018-11-19 18:22:28 
+SQL RUNTIME: 0.07 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /Applications/MAMP/htdocs/feedballoon-cms 
+ARCHIVE FILE: 20181119_feedballooncms_79cb3893c8b4cbbc6021_20181119182224_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	79.57MB 
+STATS:	Dirs 859 | Files 4,472 
+SQL ADDED: 20181119_feedballooncms_79cb3893c8b4cbbc6021_20181119182224_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5331
+    [filename] => /Applications/MAMP/htdocs/feedballoon-cms/wp-snapshots/tmp/20181119_feedballooncms_79cb3893c8b4cbbc6021_20181119182224_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 43.48MB 
+ARCHIVE RUNTIME: 10.92 sec. 
+MEMORY STACK: 4MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preparing for use 
+PACK SIZE:  
+Template parsed with new data 
+Complete [/Applications/MAMP/htdocs/feedballoon-cms/wp-snapshots/tmp/20181119_feedballooncms_79cb3893c8b4cbbc6021_20181119182224_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 598.9KB 
+Installer File: 514.2KB 
+Archive File: 43.48MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 12.79 sec.
+PEAK PHP MEMORY USED: 4MB
+DONE PROCESSING => 20181119_feedballooncms November 19, 2018 6:22 pm
+ 
