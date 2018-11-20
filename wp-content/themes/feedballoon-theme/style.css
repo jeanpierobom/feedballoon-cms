@@ -48,28 +48,57 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Footer
 --------------------------------------------------------------*/
 .footer li {
-  color: red;
-}
+  color: red; }
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-.header {
-  background-color: pink;
-  height: 400px;
-}
+li, h1, p {
+  color: white;
+  font-weight: lighter; }
 
-.menu ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+h1 {
+  font-size: 50px; }
+
+p {
+  font-size: 20px; }
+
+li {
+  font-size: 17px; }
+
+.header {
+  background-image: linear-gradient(to left, #FFAC1B, #E10B90);
+  height: 400px; }
+
+.menupart {
+  float: right; }
+
+.menupart ul {
+  margin-right: 40px; }
+
+.menupart ul li {
+  display: inline-block;
+  margin: 20px; }
+
+.main1 .title1 {
+  margin-left: 45%;
+  padding-top: 60px; }
+
+.content {
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem; }
+
+.download {
+  margin-left: 35%;
+  margin-top: 5rem; }
 
 /*--------------------------------------------------------------
 # Main Layout
 --------------------------------------------------------------*/
 .supports {
-  margin: 0 !important;
-}
+  margin: 0 !important; }
 
 /*--------------------------------------------------------------
 # Menu
@@ -78,8 +107,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Screenshots Section
 --------------------------------------------------------------*/
 h2 {
-  color: red;
-}
+  color: red; }
 
 /*--------------------------------------------------------------
 # Top Section
@@ -94,7 +122,6 @@ h2 {
 # Typography
 --------------------------------------------------------------*/
 * {
-  font-family: "Roboto", sans-serif;
-}
+  font-family: "Roboto", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,9 +1,48 @@
-.header {
-  background-color: pink;
-  height: 400px;
+li,h1,p{
+  color: white;
+  font-weight: lighter;
+}
+h1{
+  font-size: 50px;
+}
+p{
+  font-size: 20px;
+}
+li{
+  font-size: 17px;
 }
 
-.menu ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.header {
+  background-image: linear-gradient(to left, #FFAC1B, #E10B90);
+  height: 400px;
+}
+.menupart{
+
+  float: right;
+
+}
+.menupart ul{
+  margin-right: 40px;
+}
+.menupart ul li{
+  display: inline-block;
+  margin: 20px;
+}
+.main1{
+
+}
+.main1 .title1{
+  margin-left: 45%;
+  padding-top: 60px;
+}
+.content{
+  // background-color: green;
+  text-align: center;
+  margin-top: 2rem;
+  margin-left:10rem;
+  margin-right:10rem;
+}
+.download{
+  margin-left: 35%;
+  margin-top: 5rem;
 }
