@@ -41,6 +41,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact-page {
+  background-color: #313131;
+}
+
 /*--------------------------------------------------------------
 # Feedback Section
 --------------------------------------------------------------*/
@@ -48,57 +52,70 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Footer
 --------------------------------------------------------------*/
 .footer li {
-  color: red; }
+  color: red;
+}
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 li, h1, p {
   color: white;
-  font-weight: lighter; }
+  font-weight: lighter;
+}
 
 h1 {
-  font-size: 50px; }
+  font-size: 50px;
+}
 
 p {
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 li {
-  font-size: 17px; }
+  font-size: 17px;
+}
 
 .header {
   background-image: linear-gradient(to left, #FFAC1B, #E10B90);
-  height: 400px; }
+  height: 400px;
+}
 
 .menupart {
-  float: right; }
+  float: right;
+}
 
 .menupart ul {
-  margin-right: 40px; }
+  margin-right: 40px;
+}
 
 .menupart ul li {
   display: inline-block;
-  margin: 20px; }
+  margin: 20px;
+}
 
 .main1 .title1 {
   margin-left: 45%;
-  padding-top: 60px; }
+  padding-top: 60px;
+}
 
 .content {
   text-align: center;
   margin-top: 2rem;
   margin-left: 10rem;
-  margin-right: 10rem; }
+  margin-right: 10rem;
+}
 
 .download {
   margin-left: 35%;
-  margin-top: 5rem; }
+  margin-top: 5rem;
+}
 
 /*--------------------------------------------------------------
 # Main Layout
 --------------------------------------------------------------*/
 .supports {
-  margin: 0 !important; }
+  margin: 0 !important;
+}
 
 /*--------------------------------------------------------------
 # Menu
@@ -107,7 +124,8 @@ li {
 # Screenshots Section
 --------------------------------------------------------------*/
 h2 {
-  color: red; }
+  color: red;
+}
 
 /*--------------------------------------------------------------
 # Top Section
@@ -122,6 +140,7 @@ h2 {
 # Typography
 --------------------------------------------------------------*/
 * {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+}
 
 /*# sourceMappingURL=style.css.map */
