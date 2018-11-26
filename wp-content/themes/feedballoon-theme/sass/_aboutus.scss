@@ -1,0 +1,180 @@
+.page-id-5{
+  h1{
+    color: black;
+    text-align:center;
+    font-size: 45px;
+    font-weight: 600;  }
+  p{
+    color: black;
+  }
+  .about-info{
+    background-color: rgba(128, 128, 128, 0.3);
+    padding: 2rem;
+}
+
+  .text p{
+  line-height: 1.4;
+}
+.image img{
+  display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.image h2 {
+  font-size: 50px;
+  font-weight: lighter;
+  color: #800080;
+  margin-top: -40px;
+  text-align: center;
+
+}
+
+.team-info{
+  background-color: rgba(153, 153, 153,0.4);
+  padding: 2rem;
+  margin-bottom: 10px;
+}
+
+.intro p{
+  line-height: 1.4;
+  font-weight: lighter;
+
+}
+
+h2{
+  font-family: 'Roboto';
+}
+h3{
+  color: #800080;
+  font-family: 'Roboto';
+  font-weight: lighter;
+  margin-top: -20px;
+}
+.team-image1{
+  img{
+    width: 15rem;
+    height: 15rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.intro1 h2{
+  text-align: center;
+}
+.intro1 h3{
+text-align: center;
+}
+.team-image2{
+  img{
+    width: 15rem;
+    height: 15rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+}
+.intro2 h2{
+  text-align: center;
+}
+.intro2 h3{
+text-align: center;
+}
+
+
+}
+@media screen and (min-width:600px) {
+  .page-id-5{
+    h1{
+      color: black;
+      text-align:center;
+      font-size: 45px;
+      font-weight: 600;
+    }
+    p{
+      color: black;
+    }
+    .about-info{
+      background-color: rgba(128, 128, 128, 0.3);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 3rem;
+  }
+
+    .text p{
+    line-height: 1.4;
+    padding-right: 8rem;
+
+
+  }
+
+  .image {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .image h2 {
+    padding-left:0px;
+    margin-top: 7rem;
+    font-size: 50px;
+    font-weight: lighter;
+    color: #800080;
+    margin-left: 0;
+
+  }
+
+  .team-info{
+    background-color: rgba(153, 153, 153,0.4);
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    padding: 3rem;
+    margin-bottom: 10px;
+  }
+
+
+  .intro p{
+    line-height: 1.4;
+
+    font-weight: lighter;
+
+  }
+
+  h2{
+    font-family: 'Roboto';
+  }
+  h3{
+    color: #800080;
+    font-family: 'Roboto';
+    font-weight: lighter;
+    margin-top: -20px;
+  }
+
+  .team-image1{
+    img{
+      width: 15rem;
+      height: 15rem;
+      padding-left: 22rem;
+
+    }
+  }
+  .team-image2{
+    img{
+      width: 15rem;
+      height: 15rem;
+      margin: 0px;
+
+    }
+  }
+  .intro2 h2{
+    padding-left:27rem;
+ }
+ .intro2 h3{
+   padding-left:27rem;
+}
+
+
+}
+}
