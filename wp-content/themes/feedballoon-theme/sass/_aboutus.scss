@@ -1,82 +1,93 @@
+// mobile view
+
 .page-id-5{
   h1{
     color: black;
     text-align:center;
     font-size: 45px;
-    font-weight: 600;  }
+    font-weight: 600;
+   }
+
   p{
     color: black;
   }
+
   .about-info{
     background-color: rgba(128, 128, 128, 0.3);
     padding: 2rem;
-}
+  }
 
   .text p{
   line-height: 1.4;
 }
+
 .image img{
   display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.image h2 {
+.image h2{
   font-size: 50px;
   font-weight: lighter;
   color: #800080;
   margin-top: -40px;
   text-align: center;
-
 }
 
-.team-info{
+.team-info1{
   background-color: rgba(153, 153, 153,0.4);
-  padding: 2rem;
+  padding: 3rem;
+  margin-bottom: 10px;
+}
+
+.team-info2{
+  background-color: rgba(153, 153, 153,0.4);
+  padding: 3rem;
   margin-bottom: 10px;
 }
 
 .intro p{
   line-height: 1.4;
   font-weight: lighter;
-
 }
 
-h2{
-  font-family: 'Roboto';
-}
 h3{
   color: #800080;
-  font-family: 'Roboto';
   font-weight: lighter;
   margin-top: -20px;
 }
-.team-image1{
-  img{
+
+.team-image1 img{
+
     width: 15rem;
     height: 15rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-}
+
+
 .intro1 h2{
   text-align: center;
 }
 .intro1 h3{
 text-align: center;
 }
-.team-image2{
-  img{
+
+.team-image2 img{
+
     width: 15rem;
     height: 15rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
-
   }
+
+.intro1 h2, .intro2 h2{
+  color: black;
 }
+
 .intro2 h2{
   text-align: center;
 }
@@ -84,8 +95,25 @@ text-align: center;
 text-align: center;
 }
 
-
+.intro1 a{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-left: 8rem;
 }
+
+.intro2 a{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-left: 8rem;
+}
+}
+// mobile view ends
+
+
 @media screen and (min-width:600px) {
   .page-id-5{
     h1{
@@ -126,55 +154,76 @@ text-align: center;
 
   }
 
-  .team-info{
+  .team-info1{
     background-color: rgba(153, 153, 153,0.4);
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:300px 850px;
+    padding: 3rem;
+    margin-bottom: 10px;
+  }
+  .team-info2{
+    background-color: rgba(153, 153, 153,0.4);
+    display: grid;
+    grid-template-columns:590px 300px;
     padding: 3rem;
     margin-bottom: 10px;
   }
 
+  .intro1{
+    padding-top: 70px;
+  }
+  .intro2{
+    padding-top: 70px;
+    padding-left:20rem;
+  }
 
-  .intro p{
+.intro p{
     line-height: 1.4;
 
     font-weight: lighter;
-
   }
 
-  h2{
-    font-family: 'Roboto';
-  }
+
   h3{
     color: #800080;
-    font-family: 'Roboto';
     font-weight: lighter;
     margin-top: -20px;
   }
 
-  .team-image1{
-    img{
+  .team-image1 img{
+
       width: 15rem;
       height: 15rem;
       padding-left: 22rem;
 
     }
-  }
-  .team-image2{
-    img{
+
+  .team-image2 img{
+
       width: 15rem;
       height: 15rem;
       margin: 0px;
-
-    }
-  }
-  .intro2 h2{
-    padding-left:27rem;
- }
- .intro2 h3{
-   padding-left:27rem;
 }
 
+.intro1 h2, .intro2 h2 {
+  color: black;
+}
+
+.intro1 a{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-left:25rem;
+}
+
+.intro2 a{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-left: 7rem;
+}
 
 }
 }
