@@ -7,4 +7,4 @@
   ?>
 </nav><!-- #site-navigation -->
 <h1><?php bloginfo('name')?></h1>
-<img class="logo-image" src="<?php echo wp_get_attachment_image_src(28, 'large')[0];?>">
+<img class="logo-image" src="<?php echo wp_get_attachment_image_src(37, 'large')[0];?>">
