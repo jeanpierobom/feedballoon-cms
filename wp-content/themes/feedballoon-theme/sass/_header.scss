@@ -1,0 +1,22 @@
+.main-navigation {
+  color: $main_menu_color;
+
+  .menu {
+    list-style-type: 0;
+    padding-left: 0;
+
+    a {
+      text-decoration: none;
+      color: $main_menu_color;
+    }
+  }
+}
+
+.site-header {
+  background-image: linear-gradient(to left, #FFAC1B,#F15F53,#EE3968, #E10B90);
+  height: 800px;
+
+  h1 {
+    color: $site_name_color;
+  }
+}
