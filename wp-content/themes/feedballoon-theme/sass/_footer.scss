@@ -1,4 +1,14 @@
+//main div
 .section-footer {
   background-color: rgb(245,245,245);
+  background-image: linear-gradient(to left, #FFAC1B,#F15F53,#EE3968, #E10B90);
+
   width: 100%;
+
+  // ul
+  #secondary-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
 }
