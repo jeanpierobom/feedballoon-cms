@@ -1,0 +1,83 @@
+.sign-up-page {
+  margin: auto;
+
+  display: grid;
+  background-image: linear-gradient(to bottom left, #E10B90, #FFAC1B);
+
+  .sup-icon-container {
+    text-align: center !important;
+    justify-content: center !important;
+    margin-bottom: 2rem;
+
+    .sup-icon {
+      width: 200px;
+      margin: auto !important;
+      margin-top: 1rem !important;
+      text-align: center;
+      align-self: center;
+      display: block;
+      float: none;
+    }
+
+  }
+
+  h3 {
+    margin-left: 1rem;
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+
+  form {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  label {
+    display: block;
+    text-align: left !important;
+  }
+
+  input, textarea {
+    display: block;
+    height: 2rem;
+    border: none;
+    border-radius: 0;
+    font-size: 1rem;
+    font-weight: 300;
+    opacity: 0.85;
+    padding-left: 0.5rem;
+    margin-bottom: 1px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    padding: 10px;
+    height: 6rem;
+  }
+
+  p {
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: 0.7rem;
+    margin: 1px !important;
+    padding: 1px !important;
+  }
+
+  .wpcf7-submit {
+    border: 2px solid white;
+    background-color: Transparent;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+    border-radius: 100px;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+}
