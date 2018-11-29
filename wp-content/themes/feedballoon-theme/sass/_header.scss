@@ -24,6 +24,11 @@
       list-style-type: none;
       padding-left: 0;
 
+      @media screen and (max-width: $mobile_breakpoint) {
+        position: fixed;
+        right: 3rem;
+      }
+
       a {
         text-decoration: none;
         text-transform: uppercase;
@@ -72,6 +77,8 @@
     text-align: center;
     margin: 2rem auto;
     max-width: 650px;
+    font-weight: 300;
+    font-size: 1.1rem;
   }
 
   .download-app {
@@ -81,6 +88,18 @@
 
     .label {
       align-self: center;
+      font-weight: 300;
+      font-size: 0.8rem;
+    }
+
+    .icons {
+      padding-top: 1rem;
+      padding-left: 0;
+
+      @media screen and (min-width: $mobile_breakpoint) {
+        padding-top: 0;
+        padding-left: 1rem;
+      }
     }
 
     img {
