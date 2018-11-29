@@ -13,7 +13,6 @@
  */
 
 get_header();
-get_template_part( 'template-parts/section-header', '' );
 
 ?>
 
@@ -34,5 +33,4 @@ get_template_part( 'template-parts/section-header', '' );
 
 <?php
 //get_sidebar();
-//get_footer();
-get_template_part( 'template-parts/section-footer', '' );
+get_footer();
