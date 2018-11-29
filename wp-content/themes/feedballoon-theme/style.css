@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
 Theme Name: FeedBalloon Theme
 Theme URI: http://underscores.me/
@@ -54,53 +55,66 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 .section-footer {
   background-color: whitesmoke;
   background-image: linear-gradient(to left, #FFAC1B, #F15F53, #EE3968, #E10B90);
-  width: 100%; }
-  .section-footer #secondary-menu {
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr;
-    align-items: center;
-    justify-content: center; }
-    .section-footer #secondary-menu .menu-item {
-      list-style: none; }
-      .section-footer #secondary-menu .menu-item a {
-        font-size: 2rem; }
-      .section-footer #secondary-menu .menu-item a::before {
-        display: inline-block;
-        font-style: normal;
-        font-variant: normal;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased; }
-      .section-footer #secondary-menu .menu-item a[href*="http://linkedin.com"]:before {
-        font-family: "Font Awesome 5 Brands";
-        font-weight: 900;
-        content: "\f0e1"; }
-      .section-footer #secondary-menu .menu-item a[href*="http://facebook.com"]:before {
-        font-family: "Font Awesome 5 Brands";
-        font-weight: 900;
-        content: "\f082"; }
-      .section-footer #secondary-menu .menu-item a[href*="http://youtube.com"]:before {
-        font-family: "Font Awesome 5 Brands";
-        font-weight: 900;
-        content: "\f167"; }
+  width: 100%;
+}
+.section-footer #secondary-menu {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  align-items: center;
+  justify-content: center;
+}
+.section-footer #secondary-menu .menu-item {
+  list-style: none;
+}
+.section-footer #secondary-menu .menu-item a {
+  font-size: 2rem;
+}
+.section-footer #secondary-menu .menu-item a::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.section-footer #secondary-menu .menu-item a[href*="http://linkedin.com"]:before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "";
+}
+.section-footer #secondary-menu .menu-item a[href*="http://facebook.com"]:before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "";
+}
+.section-footer #secondary-menu .menu-item a[href*="http://youtube.com"]:before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "";
+}
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 .main-navigation {
-  color: white; }
-  .main-navigation .menu {
-    list-style-type: 0;
-    padding-left: 0; }
-    .main-navigation .menu a {
-      text-decoration: none;
-      text-transform: uppercase;
-      color: white; }
+  color: white;
+}
+.main-navigation .menu {
+  list-style-type: 0;
+  padding-left: 0;
+}
+.main-navigation .menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
 
 .site-header {
   background-image: linear-gradient(to left, #FFAC1B, #F15F53, #EE3968, #E10B90);
-  height: 800px; }
-  .site-header h1 {
-    color: white; }
+  height: 800px;
+}
+.site-header h1 {
+  color: white;
+}
 
 /*--------------------------------------------------------------
 # Main Layout
@@ -123,30 +137,33 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   position: absolute !important;
   width: 1px;
   word-wrap: normal !important;
-  /* Many screen reader and browser combinations announce broken words as they would appear visually. */ }
-  .screen-reader-text:focus {
-    background-color: transparent;
-    border-radius: 3px;
-    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-    clip: auto !important;
-    clip-path: none;
-    color: transparent;
-    display: block;
-    font-size: 0.875rem;
-    font-weight: bold;
-    height: auto;
-    left: 5px;
-    line-height: normal;
-    padding: 15px 23px 14px;
-    text-decoration: none;
-    top: 5px;
-    width: auto;
-    z-index: 100000;
-    /* Above WP toolbar. */ }
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+.screen-reader-text:focus {
+  background-color: transparent;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: transparent;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
 
 /* Do not show the outline on the skip link target. */
 #content[tabindex="-1"]:focus {
-  outline: 0; }
+  outline: 0;
+}
 
 /*--------------------------------------------------------------
 # Screenshots Section
@@ -164,6 +181,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /* GOOGLE FONTS */
 /* font-family: 'Roboto', sans-serif; */
 * {
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Roboto", sans-serif;
+}
 
 /*# sourceMappingURL=style.css.map */
