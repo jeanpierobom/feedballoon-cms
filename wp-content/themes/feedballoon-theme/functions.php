@@ -46,6 +46,7 @@ if ( ! function_exists( 'feedballoon_theme_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'feedballoon-theme' ),
+			'menu-2' => esc_html__( 'Social Media', 'feedballoon-theme' ),
 		) );
 
 		/*
@@ -127,7 +128,7 @@ function feedballoon_theme_scripts() {
 	wp_enqueue_style( 'feedballoon-googlefont', 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
 	wp_enqueue_style( 'feedballoon-fontawesome', 'https://use.fontawesome.com/releases/v5.5.0/css/all.css');
 
-	
+
 
 	wp_enqueue_script( 'feedballoon-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

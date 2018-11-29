@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":["sass/style.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAsBA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAiBA;AAAA;AAAA;AAKA;AAAA;AAAA;AAKA;AAAA;AAAA;AAKA;AAAA;AAAA;AAKA;AAAA;AAAA;AAKA;AAAA;AAAA;AAKA;AAAA;AAAA;AAKA;AAAA;AAAA;AAKA;AAAA;AAAA;AAKA;AAAA;AAAA;AAKA;AAAA;AAAA;AAIA;AAAA;AAAA","file":"style.css"}
+{
+"version": 3,
+"mappings": "AAAA;;;;;;;;;;;;;;;;;;;;EAoBE;AAEF;;;;;;;;;;;;;;;gEAegE;AAEhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;ACxDhE,eAAgB;EACd,gBAAgB,EAAE,UAAgB;EAClC,KAAK,EAAE,IAAI;;ADyDb;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AAEhE;;gEAEgE",
+"sources": ["sass/style.scss","sass/_footer.scss"],
+"names": [],
+"file": "style.css"
+}
