@@ -1,6 +1,7 @@
 SECTION-FOOTER
 <div class="section-footer">
 
+  <h3 class="subtitle-sociaMedia">FOLLOW US</h3>
 <!-- SOCIAL MEDIA ICONS -->
   <nav id="site-navigation" class="socialMedia-Icons">
     <?php

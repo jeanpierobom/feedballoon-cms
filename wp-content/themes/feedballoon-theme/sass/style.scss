@@ -78,6 +78,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "menu";
 
 /*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import "modules/accessibility";
+
+/*--------------------------------------------------------------
 # Screenshots Section
 --------------------------------------------------------------*/
 @import "screenshots-section";

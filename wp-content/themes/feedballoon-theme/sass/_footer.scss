@@ -7,8 +7,53 @@
 
   // ul
   #secondary-menu {
+    // display: grid;
+    // grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    // align-items: center;
+    // justify-content: center;
+
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    align-items: center;
+    justify-content: center;
+
+    .menu-item {
+      list-style: none;
+
+      a {
+        font-size: 2rem;
+      }
+
+      // ICONS
+      a::before {
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+      }
+      a[href*="http://linkedin.com"]:before {
+        font-family: "Font Awesome 5 Brands";
+        font-weight: 900;
+        content: "\f0e1";
+      }
+
+      a[href*="http://facebook.com"]:before {
+        font-family: "Font Awesome 5 Brands";
+        font-weight: 900;
+        content: "\f082";
+      }
+
+      a[href*="http://youtube.com"]:before {
+        font-family: "Font Awesome 5 Brands";
+        font-weight: 900;
+        content: "\f167";
+      }
+    }
+
+
+
+
   }
 
 }

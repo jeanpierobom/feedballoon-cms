@@ -127,6 +127,7 @@ function feedballoon_theme_scripts() {
 	//GOOGLE FONTS
 	wp_enqueue_style( 'feedballoon-googlefont', 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
 	wp_enqueue_style( 'feedballoon-fontawesome', 'https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+	wp_enqueue_style( 'feedballoon-fontawesome', 'https://use.fontawesome.com/releases/v5.3.1/css/all.css');
 
 
 
