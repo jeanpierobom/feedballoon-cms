@@ -42,257 +42,151 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   color: black;
   text-align: center;
   font-size: 45px;
-  font-weight: 600;
-}
+  font-weight: 600; }
 .page-id-5 p {
-  color: black;
-}
+  color: black; }
 .page-id-5 .about-info {
   background-color: rgba(128, 128, 128, 0.3);
-  padding: 2rem;
-}
+  padding: 2rem; }
 .page-id-5 .text p {
-  line-height: 1.4;
-}
+  line-height: 1.4; }
 .page-id-5 .image img {
   display: block;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
 .page-id-5 .image h2 {
   font-size: 50px;
   font-weight: lighter;
   color: #800080;
   margin-top: -40px;
-  text-align: center;
-}
+  text-align: center; }
 .page-id-5 .team-info1 {
   background-color: rgba(153, 153, 153, 0.4);
   padding: 3rem;
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 .page-id-5 .team-info2 {
   background-color: rgba(153, 153, 153, 0.4);
   padding: 3rem;
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 .page-id-5 .intro p {
   line-height: 1.4;
-  font-weight: lighter;
-}
+  font-weight: lighter; }
 .page-id-5 h3 {
   color: #800080;
   font-weight: lighter;
-  margin-top: -20px;
-}
+  margin-top: -20px; }
 .page-id-5 .team-image1 img {
   width: 15rem;
   height: 15rem;
   display: block;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
 .page-id-5 .intro1 h2 {
-  text-align: center;
-}
+  text-align: center; }
 .page-id-5 .intro1 h3 {
-  text-align: center;
-}
+  text-align: center; }
 .page-id-5 .team-image2 img {
   width: 15rem;
   height: 15rem;
   display: block;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
 .page-id-5 .intro1 h2, .page-id-5 .intro2 h2 {
-  color: black;
-}
+  color: black; }
 .page-id-5 .intro2 h2 {
-  text-align: center;
-}
+  text-align: center; }
 .page-id-5 .intro2 h3 {
-  text-align: center;
-}
+  text-align: center; }
 .page-id-5 .intro1 a {
   text-decoration: none;
   color: black;
   font-size: 30px;
   font-weight: lighter;
-  padding-left: 8rem;
-}
+  padding-left: 8rem; }
 .page-id-5 .intro2 a {
   text-decoration: none;
   color: black;
   font-size: 30px;
   font-weight: lighter;
-  padding-left: 8rem;
-}
+  padding-left: 8rem; }
 
 @media screen and (min-width: 600px) {
   .page-id-5 h1 {
     color: black;
     text-align: center;
     font-size: 45px;
-    font-weight: 600;
-  }
+    font-weight: 600; }
   .page-id-5 p {
-    color: black;
-  }
+    color: black; }
   .page-id-5 .about-info {
     background-color: rgba(128, 128, 128, 0.3);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 3rem;
-  }
+    padding: 3rem; }
   .page-id-5 .text p {
     line-height: 1.4;
-    padding-right: 8rem;
-  }
+    padding-right: 8rem; }
   .page-id-5 .image {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-  }
+    grid-template-columns: 1fr 2fr; }
   .page-id-5 .image h2 {
     padding-left: 0px;
     margin-top: 7rem;
     font-size: 50px;
     font-weight: lighter;
     color: #800080;
-    margin-left: 0;
-  }
+    margin-left: 0; }
   .page-id-5 .team-info1 {
     background-color: rgba(153, 153, 153, 0.4);
     display: grid;
     grid-template-columns: 300px 850px;
     padding: 3rem;
-    margin-bottom: 10px;
-  }
+    margin-bottom: 10px; }
   .page-id-5 .team-info2 {
     background-color: rgba(153, 153, 153, 0.4);
     display: grid;
     grid-template-columns: 590px 300px;
     padding: 3rem;
-    margin-bottom: 10px;
-  }
+    margin-bottom: 10px; }
   .page-id-5 .intro1 {
-    padding-top: 70px;
-  }
+    padding-top: 70px; }
   .page-id-5 .intro2 {
     padding-top: 70px;
-    padding-left: 20rem;
-  }
+    padding-left: 20rem; }
   .page-id-5 .intro p {
     line-height: 1.4;
-    font-weight: lighter;
-  }
+    font-weight: lighter; }
   .page-id-5 h3 {
     color: #800080;
     font-weight: lighter;
-    margin-top: -20px;
-  }
+    margin-top: -20px; }
   .page-id-5 .team-image1 img {
     width: 15rem;
     height: 15rem;
-    padding-left: 22rem;
-  }
+    padding-left: 22rem; }
   .page-id-5 .team-image2 img {
     width: 15rem;
     height: 15rem;
-    margin: 0px;
-  }
+    margin: 0px; }
   .page-id-5 .intro1 h2, .page-id-5 .intro2 h2 {
-    color: black;
-  }
+    color: black; }
   .page-id-5 .intro1 a {
     text-decoration: none;
     color: black;
     font-size: 30px;
     font-weight: lighter;
-    padding-left: 25rem;
-  }
+    padding-left: 25rem; }
   .page-id-5 .intro2 a {
     text-decoration: none;
     color: black;
     font-size: 30px;
     font-weight: lighter;
-    padding-left: 7rem;
-  }
-}
+    padding-left: 7rem; } }
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.sign-up-page {
-  margin: auto;
-  display: grid;
-  background-image: linear-gradient(to bottom left, #E10B90, #FFAC1B);
-}
-.sign-up-page .sup-icon-container {
-  text-align: center !important;
-  justify-content: center !important;
-  margin-bottom: 2rem;
-}
-.sign-up-page .sup-icon-container .sup-icon {
-  width: 200px;
-  margin: auto !important;
-  margin-top: 1rem !important;
-  text-align: center;
-  align-self: center;
-  display: block;
-  float: none;
-}
-.sign-up-page h3 {
-  margin-left: 1rem;
-  color: white;
-  font-weight: 300;
-  font-size: 1rem;
-}
-.sign-up-page form {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-.sign-up-page label {
-  display: block;
-  text-align: left !important;
-}
-.sign-up-page input, .sign-up-page textarea {
-  display: block;
-  height: 2rem;
-  border: none;
-  border-radius: 0;
-  font-size: 1rem;
-  font-weight: 300;
-  opacity: 0.85;
-  padding-left: 0.5rem;
-  margin-bottom: 1px;
-  width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.sign-up-page textarea {
-  padding: 10px;
-  height: 6rem;
-}
-.sign-up-page p {
-  text-align: center;
-  color: white;
-  font-weight: 300;
-  font-size: 0.7rem;
-  margin: 1px !important;
-  padding: 1px !important;
-}
-.sign-up-page .wpcf7-submit {
-  border: 2px solid white;
-  background-color: Transparent;
-  color: white;
-  font-size: 1.3rem;
-  font-weight: 400;
-  border-radius: 100px;
-  height: 2rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
+.contact-page {
+  background-color: #grey; }
 
 /*--------------------------------------------------------------
 # Feedback Section
@@ -300,249 +194,76 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
-
-footer .container {
-  width: 75%;
-  margin: 0 auto;
-  overflow: auto;
-}
-
-footer .container section {
-  float: left;
-  width: 50%;
-  padding-top: 40px;
-}
-
-footer .container section .section-top input {
-  width: 220px;
-  padding: 8px 16px;
-  border: none;
-  border: 1px solid #efefef;
-}
-
-footer .container section .section-top button {
-  font-weight: 600;
-  width: 80px;
-  padding: 8px 16px;
-  color: white;
-  border: 3px solid #efefef;
-  background-color: purple;
-  border: none;
-  border: 1px solid #efefef;
-}
-
-footer .container section .section-bottom {
-  margin-top: 100px;
-}
-
-footer .container section .section-bottom .logo-section {
-  width: 100%;
-  clear: both;
-}
-
-footer .container section .section-bottom .logo-section .logo {
-  width: 42px;
-  float: left;
-  padding: 5px;
-  background-image: linear-gradient(to left, #FFAC1B, #E10B90);
-  height: 42px;
-}
-
-footer .container section .section-bottom .logo-section .logo img {
-  width: 100%;
-  width: 100%;
-}
-
-.rainbow {
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0.5, #FFAC1B), color-stop(0.15, #E10B90));
-  background-image: gradient(linear, left top, right top, color-stop(0, #FFAC1B), color-stop(0.15, #E10B90));
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-}
-
-footer .container section .section-bottom .logo-section p {
-  float: left;
-  padding: 0px;
-  margin: 0px;
-  width: 80%;
-  margin-bottom: 50px;
-  padding-top: 0px;
-  font-size: 45px;
-  margin-left: 10px;
-  color: linear-gradient(to left, #FFAC1B, #E10B90);
-}
-
-footer .container section .heading {
-  font-size: 16px;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.text {
-  clear: both;
-  font-size: 22px;
-  font-weight: bold;
-}
-
-.text p {
-  width: 100%;
-}
-
-.text p img {
-  width: 30%;
-  margin: 5px;
-}
-
-footer .container section ul {
-  list-style: none;
-  padding: 0;
-  margin: 2px;
-}
-
-footer .container section li {
-  list-style: none;
-  padding: 0;
-  margin: 0px;
-  float: left;
-  margin: 10px 5px;
-}
-
-footer .container section li img {
-  width: 32px;
-}
-
-footer .bottom-container {
-  padding: 12px 0px;
-  overflow: auto;
-  background-image: linear-gradient(to left, #FFAC1B, #E10B90);
-}
-
-footer .bottom-container section {
-  width: 50%;
-  float: left;
-}
-
-footer .bottom-container section ul {
-  list-style: none;
-  padding: 0;
-  margin: 0px;
-  width: 38%;
-  overflow: auto;
-  margin: 0 auto;
-  background-color: aliceblue;
-  clear: both;
-}
-
-footer .bottom-container section li {
-  list-style: none;
-  padding: 0;
-  margin: 0px;
-  float: left;
-  margin: 10px 5px;
-  font-weight: 600;
-}
-
-footer .bottom-container section li img {
-  width: 32px;
-}
-
-footer .bottom-container section p {
-  text-align: center;
-  background-color: aliceblue;
-  width: 45%;
-  margin: 0 auto;
-  margin-top: 10px;
-  clear: both;
-}
+.footer li {
+  color: red; }
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 li, h1, p {
   color: white;
-  font-weight: lighter;
-}
+  font-weight: lighter; }
 
 li a {
   color: white;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 h1 {
-  font-size: 50px;
-}
+  font-size: 50px; }
 
 p {
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 li {
-  font-size: 17px;
-}
+  font-size: 17px; }
 
 .header {
   background-image: linear-gradient(to left, #FFAC1B, #E10B90);
-  height: 450px;
-}
+  height: 450px; }
 
 .menupart {
-  float: right;
-}
+  float: right; }
 
 .menupart ul {
-  margin-right: 40px;
-}
+  margin-right: 40px; }
 
 .menupart ul li {
   display: inline-block;
-  margin: 20px;
-}
+  margin: 20px; }
 
 .main .title {
   display: grid;
   grid-template-columns: 150px 1fr;
   margin-left: 37%;
-  padding-top: 60px;
-}
+  padding-top: 60px; }
 
 .title h1 {
-  padding-top: 18px;
-}
+  padding-top: 18px; }
 
 .content {
   text-align: center;
   margin-top: 2rem;
   margin-left: 10rem;
-  margin-right: 10rem;
-}
+  margin-right: 10rem; }
 
 .download {
   display: grid;
   grid-template-columns: 160px 1fr;
   text-align: center;
   margin-left: 32%;
-  margin-top: 5rem;
-}
+  margin-top: 5rem; }
 
 .both {
   display: grid;
   grid-template-columns: 150px 150px;
   margin-left: 10px;
-  margin-top: -2.5rem;
-}
+  margin-top: -2.5rem; }
 
 /*--------------------------------------------------------------
 # Main Layout
 --------------------------------------------------------------*/
 .supports {
-  margin: 0 !important;
-}
+  margin: 0 !important; }
 
 /*--------------------------------------------------------------
 # Menu
@@ -550,177 +271,9 @@ li {
 /*--------------------------------------------------------------
 # Screenshots Section
 --------------------------------------------------------------*/
-.feedbacks-box {
-  align-content: center;
-}
+h2 {
+  color: red; }
 
-.feedback1 {
-  margin: 1rem;
-  padding: 1rem;
-  height: 300px;
-  border-left: 2px solid #E10B90;
-  border-right: 2px solid #FFAC1B;
-  border-radius: 15px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  background-position: 0 0, 0 100%;
-  background-repeat: no-repeat;
-  -webkit-background-size: 100% 20px;
-  -moz-background-size: 100% 20px;
-  background-size: 100% 2px;
-  background-image: -webkit-linear-gradient(left, #E10B90 0%, #FFAC1B 100%), -webkit-linear-gradient(left, #E10B90 0%, #FFAC1B 100%);
-  background-image: -moz-linear-gradient(left, #E10B90 0%, #FFAC1B 100%), -moz-linear-gradient(left, #E10B90 0%, #FFAC1B 100%);
-  background-image: -o-linear-gradient(left, #E10B90 0%, #FFAC1B 100%), -o-linear-gradient(left, #E10B90 0%, #FFAC1B 100%);
-  background-image: linear-gradient(to right, #E10B90 0%, #FFAC1B 100%), linear-gradient(to right, #E10B90 0%, #FFAC1B 100%);
-  overflow: auto;
-  display: grid;
-  max-width: 350px;
-  min-width: 350px;
-}
-
-.feedback2 {
-  margin: 1rem;
-  padding: 1rem;
-  height: 300px;
-  border-left: 2px solid darkgrey;
-  border-right: 2px solid grey;
-  border-radius: 15px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  background-position: 0 0, 0 100%;
-  background-repeat: no-repeat;
-  -webkit-background-size: 100% 20px;
-  -moz-background-size: 100% 20px;
-  background-size: 100% 2px;
-  background-image: -webkit-linear-gradient(left, darkgrey 0%, grey 100%), -webkit-linear-gradient(left, darkgrey 0%, grey 100%);
-  background-image: -moz-linear-gradient(left, darkgrey 0%, grey 100%), -moz-linear-gradient(left, darkgrey 0%, grey 100%);
-  background-image: -o-linear-gradient(left, darkgrey 0%, grey 100%), -o-linear-gradient(left, darkgrey 0%, grey 100%);
-  background-image: linear-gradient(to right, darkgrey 0%, grey 100%), linear-gradient(to right, darkgrey 0%, grey 100%);
-  overflow: auto;
-  max-width: 350px;
-  min-width: 350px;
-}
-
-.feedback3 {
-  margin: 1rem;
-  padding: 1rem;
-  height: 300px;
-  border-left: 2px solid #3EC8AC;
-  border-right: 2px solid #4E90A4;
-  border-radius: 15px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  background-position: 0 0, 0 100%;
-  background-repeat: no-repeat;
-  -webkit-background-size: 100% 20px;
-  -moz-background-size: 100% 20px;
-  background-size: 100% 2px;
-  background-image: -webkit-linear-gradient(left, #3EC8AC 0%, #4E90A4 100%), -webkit-linear-gradient(left, #3EC8AC 0%, #4E90A4 100%);
-  background-image: -moz-linear-gradient(left, #3EC8AC 0%, #4E90A4 100%), -moz-linear-gradient(left, #3EC8AC 0%, #4E90A4 100%);
-  background-image: -o-linear-gradient(left, #3EC8AC 0%, #4E90A4 100%), -o-linear-gradient(left, #3EC8AC 0%, #4E90A4 100%);
-  background-image: linear-gradient(to right, #3EC8AC 0%, #4E90A4 100%), linear-gradient(to right, #3EC8AC 0%, #4E90A4 100%);
-  overflow: auto;
-  max-width: 350px;
-  min-width: 350px;
-}
-
-span {
-  color: black;
-}
-
-p {
-  color: darkgrey;
-  font-size: 14px;
-  font-weight: 400;
-  margin: 0;
-}
-
-img {
-  width: 80px;
-  text-align: center;
-  align-self: center;
-  display: block;
-  float: left;
-  margin-top: o;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  margin-bottom: 0;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-  margin-bottom: 0.5rem;
-}
-
-.top-part {
-  float: left;
-}
-
-h4 {
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  align-self: center;
-  display: block;
-  float: left;
-  margin-bottom: 5px;
-  float: left;
-  border: 1px solid black;
-  border-radius: 50%;
-  padding: 17px;
-}
-
-.bigone {
-  font-size: 20px;
-  font-weight: 600;
-  color: black;
-  margin-top: 0;
-}
-
-.profile-name {
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  align-self: center;
-  display: block;
-  float: left;
-  margin-bottom: 5px;
-  float: left;
-  border: 1px solid black;
-  border-radius: 50%;
-  margin-left: 10px;
-  padding: 15px;
-  font-size: 40px;
-  margin-top: 1rem;
-  margin-left: 0.7rem;
-  margin-right: 1rem;
-}
-
-@media only screen and (min-width: 900px) {
-  .feedbacks-box {
-    margin-top: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-content: center;
-  }
-
-  .feedback1 {
-    margin: auto;
-  }
-
-  .feedback2 {
-    margin: auto;
-  }
-
-  .feedback3 {
-    margin: auto;
-  }
-}
 /*--------------------------------------------------------------
 # Top Section
 --------------------------------------------------------------*/
@@ -734,7 +287,6 @@ h4 {
 # Typography
 --------------------------------------------------------------*/
 * {
-  font-family: "Roboto", sans-serif;
-}
+  font-family: "Roboto", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
