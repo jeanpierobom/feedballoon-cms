@@ -1,0 +1,219 @@
+.feedbacks-box
+{
+  align-content: center;
+}
+
+
+
+
+
+.feedback1
+{
+  margin:1rem;
+  padding: 1rem;
+  height: 300px;
+  border-left: 2px solid #E10B90;
+  border-right: 2px solid#FFAC1B;
+  border-radius: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 20px;
+  -moz-background-size: 100% 20px;
+  background-size: 100% 2px;
+  background-image: -webkit-linear-gradient(left, #E10B90 0%,#FFAC1B 100%), -webkit-linear-gradient(left, #E10B90 0%,#FFAC1B 100%);
+  background-image: -moz-linear-gradient(left, #E10B90 0%,#FFAC1B 100%), -moz-linear-gradient(left, #E10B90 0%,#FFAC1B 100%);
+  background-image: -o-linear-gradient(left, #E10B90 0%,#FFAC1B 100%), -o-linear-gradient(left, #E10B90 0%,#FFAC1B 100%);
+  background-image: linear-gradient(to right, #E10B90 0%,#FFAC1B 100%), linear-gradient(to right, #E10B90 0%,#FFAC1B 100%);
+
+  overflow: auto;
+
+  display: grid;
+
+  max-width: 350px;
+  min-width: 350px;
+
+
+
+}
+
+
+.feedback2
+{
+  margin:1rem;
+  padding: 1rem;
+  height: 300px;
+  border-left: 2px solid darkgrey;
+  border-right: 2px solid grey;
+  border-radius: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 20px;
+  -moz-background-size: 100% 20px;
+  background-size: 100% 2px;
+  background-image: -webkit-linear-gradient(left, darkgrey 0%, grey 100%), -webkit-linear-gradient(left, darkgrey 0%, grey 100%);
+  background-image: -moz-linear-gradient(left, darkgrey 0%, grey 100%), -moz-linear-gradient(left, darkgrey 0%, grey 100%);
+  background-image: -o-linear-gradient(left, darkgrey 0%, grey 100%), -o-linear-gradient(left, darkgrey 0%, grey 100%);
+  background-image: linear-gradient(to right, darkgrey 0%,grey 100%), linear-gradient(to right, darkgrey 0%, grey 100%);
+
+  overflow: auto;
+  max-width: 350px;
+  min-width: 350px;
+
+}
+
+
+.feedback3
+{
+  margin:1rem;
+  padding: 1rem;
+  height: 300px;
+  border-left: 2px solid #3EC8AC;
+  border-right: 2px solid #4E90A4;
+  border-radius: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 20px;
+  -moz-background-size: 100% 20px;
+  background-size: 100% 2px;
+  background-image: -webkit-linear-gradient(left, #3EC8AC 0%, #4E90A4 100%), -webkit-linear-gradient(left, #3EC8AC 0%, #4E90A4 100%);
+  background-image: -moz-linear-gradient(left, #3EC8AC 0%, #4E90A4 100%), -moz-linear-gradient(left, #3EC8AC 0%, #4E90A4 100%);
+  background-image: -o-linear-gradient(left, #3EC8AC 0%, #4E90A4 100%), -o-linear-gradient(left, #3EC8AC 0%, #4E90A4 100%);
+  background-image: linear-gradient(to right, #3EC8AC 0%, #4E90A4 100%), linear-gradient(to right, #3EC8AC 0%, #4E90A4 100%);
+  overflow: auto;
+
+  max-width: 350px;
+  min-width: 350px;
+
+}
+
+
+
+span
+{
+  color: black;
+
+}
+
+p
+{
+    color: darkgrey;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+
+
+img {
+  width: 80px;
+  text-align: center;
+  align-self: center;
+  display: block;
+  float: left;
+  margin-top: o;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  margin-bottom:0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: .5rem;
+}
+
+.top-part
+{
+  float:left;
+
+}
+
+h4
+{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  align-self: center;
+  display: block;
+  float: left;
+  margin-bottom: 5px;
+  float: left;
+  border: 1px solid black;
+  border-radius: 50%;
+
+  padding: 17px;
+}
+
+
+.bigone
+{
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  margin-top: 0;
+}
+
+.profile-name
+
+{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  align-self: center;
+  display: block;
+  float: left;
+  margin-bottom: 5px;
+  float: left;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-left: 10px;
+
+  padding: 15px;
+
+  font-size: 40px;
+
+  margin-top: 1rem;
+  margin-left: .7rem;
+  margin-right: 1rem;
+}
+
+@media only screen and (min-width: 900px)
+ {
+   .feedbacks-box
+   {
+     margin-top: 1rem;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     align-content: center;
+
+
+   }
+
+   .feedback1
+   {
+     margin:auto;
+
+   }
+
+   .feedback2
+   {
+      margin:auto;
+   }
+
+   .feedback3
+   {
+      margin:auto;
+   }
+
+
+
+}
