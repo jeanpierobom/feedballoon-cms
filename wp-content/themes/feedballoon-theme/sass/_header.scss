@@ -1,6 +1,5 @@
 .site-header {
   color: $main_menu_color;
-  // background-image: linear-gradient(to left, #FFAC1B,#F15F53,#EE3968, #E10B90);
   background-image: $brand_gradient;
   height: 80vh;
   margin: auto;
@@ -9,6 +8,7 @@
   .main-navigation {
 
     .menu {
+      margin: 0;
       list-style-type: 0;
       padding-left: 0;
 
@@ -24,7 +24,6 @@
 
   .header-container {
     margin-top: 100px;
-    background-color: green;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,8 +37,7 @@
     text-align: center;
 
     .logo-image {
-      width: 30%;
-      margin: auto;
+      max-width: 400px;
     }
   }
 

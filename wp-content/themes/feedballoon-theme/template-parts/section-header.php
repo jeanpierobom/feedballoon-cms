@@ -19,7 +19,7 @@
 
   <div class="download-app">
     <div class="label">
-      <span>Download here</span>
+      <span>Download</span>
     </div>
     <div class="icons">
       <div class="first">
