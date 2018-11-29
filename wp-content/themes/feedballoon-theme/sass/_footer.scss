@@ -2,45 +2,42 @@
 .section-footer {
   background-color: rgb(245,245,245);
   // background-image: linear-gradient(to left, #FFAC1B, #F15F53, #EE3968, #E10B90);
+  padding-top: 1rem;
+
 
   width: 100%;
 
   .subtitle-sociaMedia {
-    margin: 1rem;
+    margin: 0 0 0 1rem;
     font-weight: 300;
     color: #4D4D4F;
+    font-size: 0.9rem;
   }
 
   // ul
   #secondary-menu {
-    // display: grid;
-    // grid-template-columns: 0.5fr 0.5fr 0.5fr;
-    // align-items: center;
-    // justify-content: center;
-
     display: flex;
     flex-grow: 0;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    // justify-content: center;
     padding: 0;
+    margin: 5px 0 1rem 0.5rem;
 
     .menu-item {
       list-style: none;
-
-        width: 50px;
-        height: 50px;
-        border-radius: 100%;
-        border: 1px solid #4D4D4F;
-        margin: 0.5rem;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      border: 1px solid #4D4D4F;
+      margin-left: 0.5rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       a {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin: 1rem;
         color: #4D4D4F;
       }
@@ -72,9 +69,72 @@
       }
     }
 
+  } // #secondary-menu (ul) - END
+
+
+  // Footer Stores
+  .footer-stores {
+    margin-top: 1rem;
+
+    .downloadApp {
+      margin: 0 0 0 1rem;
+      font-weight: 300;
+      color: #4D4D4F;
+      font-size: 0.9rem;
+    }
+
+    .stores-logos-container {
+      margin: 0 0 0 1rem;
+
+      .logo-stores {
+        max-width: 30%;
+        margin-top: 5px;
+      }
+    }
+  } // footer-stores - END
+
+
+  // Footer Logo
+  .footer-info {
+    margin: 3rem 0 3rem 1rem;
+
+
+    .logo-footer {
+      max-width: 90%;
+    }
+
+    .footer-location {
+      font-weight: 300;
+      color: #4D4D4F;
+    }
+  }
+
+
+  // Footer Rodape
+  .footer-rodape {
+    text-align: right;
+    background-image: linear-gradient(to right, #FFAC1B, #F15F53, #EE3968, #E10B90);
+    padding: 0.5rem ;
+
+    .rodape-text {
+      font-weight: 300;
+      color: white;
+      margin: 0;
+    }
+
+    .copyright {
+      font-weight: 400;
+      font-size: 0.8rem;
+    }
+
+    .footer-location {
+      font-weight: 300;
+      font-size: 0.7rem;
+    }
 
 
 
   }
 
-}
+
+} //section-footer - END
