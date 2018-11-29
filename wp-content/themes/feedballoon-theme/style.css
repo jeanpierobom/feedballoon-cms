@@ -53,31 +53,34 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
 .section-footer {
   background-color: whitesmoke;
+  padding-top: 1rem;
   width: 100%; }
   .section-footer .subtitle-sociaMedia {
-    margin: 1rem;
+    margin: 0 0 0 1rem;
     font-weight: 300;
-    color: #4D4D4F; }
+    color: #4D4D4F;
+    font-size: 0.9rem; }
   .section-footer #secondary-menu {
     display: flex;
     flex-grow: 0;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    padding: 0; }
+    padding: 0;
+    margin: 5px 0 1rem 0.5rem; }
     .section-footer #secondary-menu .menu-item {
       list-style: none;
-      width: 50px;
-      height: 50px;
+      width: 40px;
+      height: 40px;
       border-radius: 100%;
       border: 1px solid #4D4D4F;
-      margin: 0.5rem;
+      margin-left: 0.5rem;
       text-align: center;
       display: flex;
       align-items: center;
       justify-content: center; }
       .section-footer #secondary-menu .menu-item a {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin: 1rem;
         color: #4D4D4F; }
       .section-footer #secondary-menu .menu-item a::before {
@@ -98,29 +101,98 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
         font-family: "Font Awesome 5 Brands";
         font-weight: 900;
         content: "\f167"; }
+  .section-footer .footer-stores {
+    margin-top: 1rem; }
+    .section-footer .footer-stores .downloadApp {
+      margin: 0 0 0 1rem;
+      font-weight: 300;
+      color: #4D4D4F;
+      font-size: 0.9rem; }
+    .section-footer .footer-stores .stores-logos-container {
+      margin: 0 0 0 1rem; }
+      .section-footer .footer-stores .stores-logos-container .logo-stores {
+        max-width: 30%;
+        margin-top: 5px; }
+  .section-footer .footer-info {
+    margin: 3rem 0 3rem 1rem; }
+    .section-footer .footer-info .logo-footer {
+      max-width: 90%; }
+    .section-footer .footer-info .footer-location {
+      font-weight: 300;
+      color: #4D4D4F; }
+  .section-footer .footer-rodape {
+    text-align: right;
+    background-image: linear-gradient(to right, #FFAC1B, #F15F53, #EE3968, #E10B90);
+    padding: 0.5rem; }
+    .section-footer .footer-rodape .rodape-text {
+      font-weight: 300;
+      color: white;
+      margin: 0; }
+    .section-footer .footer-rodape .copyright {
+      font-weight: 400;
+      font-size: 0.8rem; }
+    .section-footer .footer-rodape .footer-location {
+      font-weight: 300;
+      font-size: 0.7rem; }
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-.main-navigation {
-  color: white; }
-  .main-navigation .menu {
+.site-header {
+  color: white;
+  background-image: linear-gradient(to left, #FFAC1B, #F15F53, #EE3968, #E10B90);
+  height: 80vh;
+  margin: auto; }
+  .site-header .main-navigation .menu {
+    margin: 0;
     list-style-type: 0;
     padding-left: 0; }
-    .main-navigation .menu a {
+    .site-header .main-navigation .menu a {
       text-decoration: none;
       text-transform: uppercase;
       color: white; }
-
-.site-header {
-  background-image: linear-gradient(to left, #FFAC1B, #F15F53, #EE3968, #E10B90);
-  height: 800px; }
+  .site-header .header-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
   .site-header h1 {
     color: white; }
+  .site-header .logo-container {
+    text-align: center; }
+    .site-header .logo-container .logo-image {
+      max-width: 400px; }
+  .site-header .content {
+    text-align: center; }
+  .site-header .download-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .site-header .download-app .label {
+      align-self: center; }
+    .site-header .download-app img {
+      max-width: 100px; }
+    @media screen and (min-width: 500px) {
+      .site-header .download-app {
+        flex-direction: row; } }
+  .site-header .icons {
+    display: flex;
+    justify-content: center; }
 
 /*--------------------------------------------------------------
 # Main Layout
 --------------------------------------------------------------*/
+body {
+  margin: 0;
+  padding: 0; }
+
+.site {
+  max-width: 1200px;
+  margin: auto; }
+
+img {
+  width: 100%; }
+
 /*--------------------------------------------------------------
 # Menu
 --------------------------------------------------------------*/
