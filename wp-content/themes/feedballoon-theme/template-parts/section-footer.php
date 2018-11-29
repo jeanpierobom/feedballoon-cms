@@ -12,7 +12,12 @@ SECTION-FOOTER
     ?>
   </nav><!-- SOCIAL MEDIA ICONS -->
 
-</div>
+  <div class="stores">
+    
+
+  </div>
 
 
-</div>
+
+
+</div> <!-- section-footer - END -->
