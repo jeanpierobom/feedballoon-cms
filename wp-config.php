@@ -23,14 +23,13 @@
 define('DB_NAME', 'feedballoon-cms');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', '<user>');
 
 /** MySQL database password */
-//define('DB_PASSWORD', 'root');
-define('DB_PASSWORD', 'flying2018!');
+define('DB_PASSWORD', '<password>');
 
 /** MySQL hostname */
-define('DB_HOST', '18.209.101.158');
+define('DB_HOST', '<host>');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
