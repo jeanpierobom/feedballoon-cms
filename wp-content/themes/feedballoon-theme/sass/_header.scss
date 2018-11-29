@@ -2,24 +2,49 @@
   color: $main_menu_color;
   background-image: $brand_gradient;
   height: 80vh;
+  min-height: 500px;
   margin: auto;
 
+  #toggle-button {
+    @media screen and (min-width: $mobile_breakpoint) {
+      display: none;
+    }
+
+    i {
+      font-size: 2rem;
+    }
+  }
 
   .main-navigation {
+    padding: 1rem 3rem;
+    text-align: right;
 
     .menu {
       margin: 0;
-      list-style-type: 0;
+      list-style-type: none;
       padding-left: 0;
 
       a {
         text-decoration: none;
         text-transform: uppercase;
         color: $main_menu_color;
+        font-size: 1.5rem;
+        font-weight: 300;
       }
 
-    }
+      // display: flex;
+      // flex-direction: column;
 
+      li {
+        display: hidden;
+        margin: 0.25rem 0;
+
+        @media screen and (min-width: $mobile_breakpoint) {
+          display: inline-block;
+          margin: 0 0.75rem;
+        }
+      }
+    }
   }
 
   .header-container {
@@ -27,6 +52,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
+    text-align: center;
   }
 
   h1 {
@@ -43,7 +70,8 @@
 
   .content {
     text-align: center;
-    margin: 2rem 0;
+    margin: 2rem auto;
+    max-width: 650px;
   }
 
   .download-app {
@@ -59,7 +87,7 @@
       max-width: 100px;
     }
 
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: $mobile_breakpoint) {
       flex-direction: row;
     }
   }

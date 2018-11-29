@@ -1,4 +1,6 @@
 <nav id="site-navigation" class="main-navigation">
+  <span id="toggle-button"><i class="fas fa-bars"></i></span>
+
   <?php
   wp_nav_menu( array(
     'theme_location' => 'menu-1',
