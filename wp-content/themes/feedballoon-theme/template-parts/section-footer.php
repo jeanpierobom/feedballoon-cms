@@ -1,4 +1,4 @@
-SECTION-FOOTER
+
 <div class="section-footer">
 
   <div class="wrapper">

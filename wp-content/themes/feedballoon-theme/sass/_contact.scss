@@ -1,8 +1,10 @@
-.contact-page {
-  margin: auto;
+.page-id-13 {
+  h1{
+    display: none;
+  }
+}
 
-  display: grid;
-  background-image: linear-gradient(to bottom left, #E10B90, #FFAC1B);
+.contact-page {
 
   .sup-icon-container {
     text-align: center !important;
@@ -22,41 +24,46 @@
   }
 
   h3 {
-    margin-left: 1rem;
-    color: white;
-    font-weight: 300;
-    font-size: 1rem;
+    margin: 1.5rem 0 1rem 1.5rem;
+    color: rgb(150,150,175);
+    font-weight: 200;
+    font-size: 4rem;
   }
 
   form {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding: 0 2rem 0 2rem;
   }
 
   label {
     display: block;
     text-align: left !important;
+    margin-bottom: 20px;
+    color: rgb(135,135,135);
+    font-size: 1.2rem;
+    font-weight: 300;
   }
 
   input, textarea {
     display: block;
-    height: 2rem;
+    height: 3rem;
     border: none;
     border-radius: 0;
     font-size: 1rem;
     font-weight: 300;
-    opacity: 0.85;
+    // opacity: 0.85;
+    background-color: rgb(240,240,240);
     padding-left: 0.5rem;
     margin-bottom: 1px;
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    border-bottom: 1px solid rgb(200,200,200);
   }
 
   textarea {
     padding: 10px;
-    height: 6rem;
+    height: 15rem;
   }
 
   p {
@@ -66,18 +73,22 @@
     font-size: 0.7rem;
     margin: 1px !important;
     padding: 1px !important;
+
   }
 
   .wpcf7-submit {
     border: 2px solid white;
-    background-color: Transparent;
+    background-image: linear-gradient(to left, #FFAC1B, #F15F53, #EE3968, #E10B90);
     color: white;
     font-size: 1.3rem;
     font-weight: 400;
     border-radius: 100px;
-    height: 2rem;
-    margin-top: 1rem;
+    height: 3rem;
+    width: 200px;
+    margin-top: 0;
     margin-bottom: 1rem;
+    margin-left: 0;
+    padding: 0;
   }
 
 }
