@@ -5,9 +5,15 @@ body {
 
 .site {
   max-width: 1200px;
-  margin: auto; 
+  margin: auto;
 }
 
 img {
   width: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }

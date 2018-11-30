@@ -1,217 +1,83 @@
-// mobile view
 .page-id-15 {
-  h1{
-    color: black;
-    text-align:center;
-    font-size: 45px;
-    font-weight: 600;
-   }
 
-   p{
-     color: black;
-   }
-  .about-info{
-    background-color: rgba(128, 128, 128, 0.3);
-    padding: 2rem;
+  h1 {
+    text-align: center;
   }
 
-
-  .text p{
-  line-height: 1.4;
-  padding-right: 70px;
-}
-
-.image img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-.team-info1{
-  background-color: rgba(153, 153, 153,0.4);
-  padding: 3rem;
-  margin-bottom: 10px;
-}
-
-.team-info2{
-  background-color: rgba(153, 153, 153,0.4);
-  padding: 3rem;
-  margin-bottom: 10px;
-}
-
-.intro p{
-  line-height: 1.4;
-  font-weight: lighter;
-}
-
-h3{
-  color: #800080;
-  font-weight: lighter;
-  margin-top: -20px;
-}
-
-.team-image1 img{
-
-    width: 15rem;
-    height: 15rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .image img {
+    width: 200px;
+    height: 200px;
   }
 
-
-.intro1 h2{
-  text-align: center;
-}
-.intro1 h3{
-text-align: center;
-}
-
-.team-image2 img{
-
-    width: 15rem;
-    height: 15rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-.intro1 h2, .intro2 h2{
-  color: black;
-}
-
-.intro2 h2{
-  text-align: center;
-}
-.intro2 h3{
-text-align: center;
-}
-
-.intro1 a{
-  text-decoration: none;
-  color: black;
-  font-size: 30px;
-  font-weight: lighter;
-  padding-left: 8rem;
-}
-
-.intro2 a{
-  text-decoration: none;
-  color: black;
-  font-size: 30px;
-  font-weight: lighter;
-  padding-left: 8rem;
-}
-}
-// mobile view ends
-
-
-@media screen and (min-width:600px) {
-  .page-id-5{
-    h1{
-      color: black;
-      text-align:center;
-      font-size: 45px;
-      font-weight: 600;
-    }
-
-    p{
-      color: black;
-    }
-
-    .about-info{
-      background-color: rgba(128, 128, 128, 0.3);
-      display: grid;
-      grid-template-columns: 500px 1fr;
-      padding: 3rem;
-  }
-
-    .text p{
-    line-height: 1.4;
-    padding-right: 8rem;
-
-
-  }
-  .image img{
+  .about-info {
+    display: flex;
+    flex-direction: row;
     padding: 5rem;
-    padding-left: 8rem;
-  }
 
-
-
-  .team-info1{
-    background-color: rgba(153, 153, 153,0.4);
-    display: grid;
-    grid-template-columns:300px 850px;
-    padding: 3rem;
-    margin-bottom: 10px;
-  }
-  .team-info2{
-    background-color: rgba(153, 153, 153,0.4);
-    display: grid;
-    grid-template-columns:590px 300px;
-    padding: 3rem;
-    margin-bottom: 10px;
-  }
-
-  .intro1{
-    padding-top: 70px;
-    padding-left: 50px;
-  }
-  .intro2{
-    padding-top: 70px;
-    padding-left:15rem;
-  }
-
-.intro p{
-    line-height: 1.4;
-
-    font-weight: lighter;
-  }
-
-
-  h3{
-    color: #800080;
-    font-weight: lighter;
-    margin-top: -20px;
-  }
-
-  .team-image1 img{
-
-      width: 15rem;
-      height: 15rem;
-      padding-left: 22rem;
-
+    @media screen and (max-width: 800px) {
+      flex-direction: column;
     }
 
-  .team-image2 img{
+    justify-content: center;
+    align-content: center;
 
-      width: 15rem;
-      height: 15rem;
-      margin: 0px;
-}
+    img {
+      width: 100%;
+      height: auto;
+      max-width: 300px;
+      padding: 1rem;
+      margin: auto;
+    }
 
-.intro1 h2, .intro2 h2 {
-  color: black;
-}
+    p {
+      margin: auto 1rem;
+      max-width: 800px;
+      line-height: 1.5rem;
+    }
 
-.intro1 a{
-  text-decoration: none;
-  color: black;
-  font-size: 30px;
-  font-weight: lighter;
-  padding-left:23rem;
-}
+  }
 
-.intro2 a{
-  text-decoration: none;
-  color: black;
-  font-size: 30px;
-  font-weight: lighter;
-  padding-left: 10rem;
-}
+  .team {
+    margin-top: 2rem;
+    background-color: rgb(250, 250, 250);
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
 
-}
+    h2 {
+      text-align: center;
+    }
+
+    .team-info {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid rgb(230, 230, 230);
+
+      .info, .image {
+        float: left;
+        box-sizing: border-box;
+        text-align: center;
+        width: 50%;
+        min-width: 50%;
+      }
+
+      .info {
+        margin-top: 2rem;
+      }
+
+      .image {
+        padding: 0 2rem;
+      }
+
+      .text-left {
+        text-align: left;
+      }
+
+      .text-right {
+        text-align: right;
+      }
+    }
+
+  }
+
 }
