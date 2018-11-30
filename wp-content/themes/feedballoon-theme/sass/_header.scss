@@ -37,9 +37,6 @@
         font-weight: 300;
       }
 
-      // display: flex;
-      // flex-direction: column;
-
       li {
         display: hidden;
         margin: 0.25rem 0;
@@ -54,8 +51,6 @@
 
   .header-container {
     margin-top: 5rem;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-content: center;
     text-align: center;

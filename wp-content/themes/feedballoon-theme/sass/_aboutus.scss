@@ -1,0 +1,217 @@
+// mobile view
+.page-id-15 {
+  h1{
+    color: black;
+    text-align:center;
+    font-size: 45px;
+    font-weight: 600;
+   }
+
+   p{
+     color: black;
+   }
+  .about-info{
+    background-color: rgba(128, 128, 128, 0.3);
+    padding: 2rem;
+  }
+
+
+  .text p{
+  line-height: 1.4;
+  padding-right: 70px;
+}
+
+.image img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.team-info1{
+  background-color: rgba(153, 153, 153,0.4);
+  padding: 3rem;
+  margin-bottom: 10px;
+}
+
+.team-info2{
+  background-color: rgba(153, 153, 153,0.4);
+  padding: 3rem;
+  margin-bottom: 10px;
+}
+
+.intro p{
+  line-height: 1.4;
+  font-weight: lighter;
+}
+
+h3{
+  color: #800080;
+  font-weight: lighter;
+  margin-top: -20px;
+}
+
+.team-image1 img{
+
+    width: 15rem;
+    height: 15rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+.intro1 h2{
+  text-align: center;
+}
+.intro1 h3{
+text-align: center;
+}
+
+.team-image2 img{
+
+    width: 15rem;
+    height: 15rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.intro1 h2, .intro2 h2{
+  color: black;
+}
+
+.intro2 h2{
+  text-align: center;
+}
+.intro2 h3{
+text-align: center;
+}
+
+.intro1 a{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-left: 8rem;
+}
+
+.intro2 a{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-left: 8rem;
+}
+}
+// mobile view ends
+
+
+@media screen and (min-width:600px) {
+  .page-id-5{
+    h1{
+      color: black;
+      text-align:center;
+      font-size: 45px;
+      font-weight: 600;
+    }
+
+    p{
+      color: black;
+    }
+
+    .about-info{
+      background-color: rgba(128, 128, 128, 0.3);
+      display: grid;
+      grid-template-columns: 500px 1fr;
+      padding: 3rem;
+  }
+
+    .text p{
+    line-height: 1.4;
+    padding-right: 8rem;
+
+
+  }
+  .image img{
+    padding: 5rem;
+    padding-left: 8rem;
+  }
+
+
+
+  .team-info1{
+    background-color: rgba(153, 153, 153,0.4);
+    display: grid;
+    grid-template-columns:300px 850px;
+    padding: 3rem;
+    margin-bottom: 10px;
+  }
+  .team-info2{
+    background-color: rgba(153, 153, 153,0.4);
+    display: grid;
+    grid-template-columns:590px 300px;
+    padding: 3rem;
+    margin-bottom: 10px;
+  }
+
+  .intro1{
+    padding-top: 70px;
+    padding-left: 50px;
+  }
+  .intro2{
+    padding-top: 70px;
+    padding-left:15rem;
+  }
+
+.intro p{
+    line-height: 1.4;
+
+    font-weight: lighter;
+  }
+
+
+  h3{
+    color: #800080;
+    font-weight: lighter;
+    margin-top: -20px;
+  }
+
+  .team-image1 img{
+
+      width: 15rem;
+      height: 15rem;
+      padding-left: 22rem;
+
+    }
+
+  .team-image2 img{
+
+      width: 15rem;
+      height: 15rem;
+      margin: 0px;
+}
+
+.intro1 h2, .intro2 h2 {
+  color: black;
+}
+
+.intro1 a{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-left:23rem;
+}
+
+.intro2 a{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-left: 10rem;
+}
+
+}
+}
