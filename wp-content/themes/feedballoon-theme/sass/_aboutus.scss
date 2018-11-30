@@ -1,8 +1,16 @@
 .page-id-15 {
 
   h1 {
-    text-align: center;
+    margin: 1.5rem 0 1rem 1.5rem;
+    font-size: 4rem;
+    color: rgb(150,150,175);
+    font-weight: 200;
   }
+
+  h3 {
+    font-weight: 300;
+  }
+
 
   .image img {
     min-width: 150px;
@@ -56,17 +64,10 @@
       padding-bottom: 2rem;
       border-bottom: 1px solid rgb(230, 230, 230);
 
-      @media screen and (max-width: $mobile_breakpoint) {
-        // display: flex;
-        // flex-direction: column;
-      }
-
       .info, .image {
         float: left;
         box-sizing: border-box;
         text-align: center;
-        // width: 50%;
-        // min-width: 50%;
       }
 
       .info {
@@ -85,6 +86,21 @@
 
       .text-right {
         text-align: right;
+      }
+
+      @media screen and (max-width: $mobile_breakpoint) {
+        display: flex;
+        flex-direction: column;
+
+        .info {
+          order: 1;
+          text-align: center;
+          margin-bottom: 1rem;
+        }
+
+        .image {
+          order: 2;
+        }
       }
 
       h3 {
