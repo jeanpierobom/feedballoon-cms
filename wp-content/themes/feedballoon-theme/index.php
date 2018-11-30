@@ -25,7 +25,6 @@ get_header();
 					get_template_part( 'template-parts/section-feedbacks', '' );
 					get_template_part( 'template-parts/section-top', '' );
 					get_template_part( 'template-parts/section-screenshots', '' );
-					get_template_part( 'template-parts/section-user-reviews', '' );4
 				?>
 
 		</main><!-- #main -->
