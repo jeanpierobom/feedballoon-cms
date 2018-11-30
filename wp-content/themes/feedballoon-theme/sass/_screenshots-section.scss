@@ -1,0 +1,104 @@
+.section-feedback {
+  // text-align: center;
+
+    h1 {
+      text-align: center;
+    }
+
+    span {
+      display: block;
+    }
+
+
+
+
+    .awesomeBox {
+      background-color: rgb(250,250,250);
+      max-width: 50%;
+      margin-right: 10px;
+      padding: 5rem;
+      box-sizing: border-box;
+
+      .border {
+        background-image: linear-gradient(to left, #E10B90, #FFAC1B);
+        padding: 1px;
+        border-radius: 15px;
+      }
+
+      .awesomeInternalBox {
+        background-color: white;
+        border-radius: 15px;
+        padding: 10px;
+      }
+
+
+      .initials {
+        float: left;
+        border: 1px solid #E10B90;
+        border-radius: 100%;
+        font-size: 2rem;
+        padding: 1.5rem;
+        margin: 10px;
+      }
+
+      .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
+      }
+
+      .userInfo {
+
+        text-align: left;
+        padding-top: 25px;
+
+      }
+
+      .bar {
+        width: 100%;
+        background-color: rgb(240,240,240);
+        border-top: 1px solid rgb(230,230,230);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+
+        .type {
+          display: inline-block;
+          padding: 0.5rem;
+          color: rgb(80,80,80);
+          font-size: 1.2rem;
+          flex-grow: 1;
+        }
+
+        .reply {
+          color: rgb(80,80,80);
+          margin-right: 0.5rem;
+        }
+
+        .favorite {
+          color: rgb(80,80,80);
+          margin-right: 0.5rem;
+        }
+
+      }
+
+      .bottomInfo {
+        p {
+          line-height: 1.5;
+          .break {
+            display: block;
+          }
+        }
+
+      }
+
+    }
+
+    .reviseBox {
+      background-color: rgb(250,250,250);
+      max-width: 50%;
+
+
+    }
+}
