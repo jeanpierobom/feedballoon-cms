@@ -9,9 +9,8 @@
 
 
   .wrapper {
-
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
 
   span {
@@ -23,13 +22,13 @@
     // AWESOME BOX
     .awesomeBox {
       background-color: rgb(250,250,250);
-      max-width: 50%;
-      margin-right: 5px;
-      padding: 2rem;
+      width: 100%;
+      margin-right: 0;
+      padding: 1rem;
       box-sizing: border-box;
 
       .border {
-        background-image: linear-gradient(to left, #E10B90, #FFAC1B);
+        background-image: $brand_gradient;
         padding: 1px;
         border-radius: 15px;
       }
@@ -48,6 +47,7 @@
         padding: 1.5rem;
         margin: 10px;
       }
+
 
       .clearfix::after {
           content: "";
@@ -135,7 +135,7 @@
     // REVISE
     .reviseBox {
       background-color: rgb(250,250,250);
-      max-width: 50%;
+      width: 100%;
       padding: 1rem;
       box-sizing: border-box;
 
@@ -145,7 +145,7 @@
         border-radius: 15px;
       }
 
-      .awesomeInternalBox {
+      .reviseInternalBox {
         background-color: white;
         border-radius: 15px;
         padding: 10px;
@@ -245,4 +245,28 @@
     } //REVISE END
 
   } // .wrapper END
+
+
+  @media screen and (min-width: $mobile_breakpoint) {
+
+      .wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+
+      .awesomeBox {
+        margin-right: 5px;
+        padding: 3rem;
+        width: 50%;
+      }
+
+      .reviseBox {
+        width: 50%;
+        padding: 3rem;
+      }
+
+
+      } //wrapper end
+    }// .media screen end
+
 } // .section-feedback END

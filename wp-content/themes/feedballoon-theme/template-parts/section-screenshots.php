@@ -26,7 +26,7 @@
 
         <div class="bottomInfo">
           <p>
-          Hey John, <span class="break1">I really liked your presentation today. It was AWESOME! Keep up with the good structure in your slides.</span>
+          Hey John, <span class="break1">I really liked your presentation today. It was AWESOME! <span class="break">Keep up with the good structure in your slides.</span></span>
           <span class="break">Great Job!</span>
         <span class="break">Sarah Inman</span>
           <span class="break">Marketing Manager @FeedBaloon Co.</span>
@@ -41,7 +41,7 @@
 
   <div class="reviseBox">
     <div class="border">
-      <div class="awesomeInternalBox">
+      <div class="reviseInternalBox">
 
         <span class="initials">TC</span>
 

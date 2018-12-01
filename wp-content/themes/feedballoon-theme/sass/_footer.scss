@@ -142,13 +142,14 @@
   }
 
 
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: $mobile_breakpoint) {
 
     .wrapper {
       background-color: rgb(245,245,245);
     }
 
     .balloonIcon-box {
+      // max-width: 35%;
       max-width: 35%;
       padding: 1rem;
       justify-self: center;
@@ -159,7 +160,7 @@
 
         .balloonIcon {
           display: block;
-          max-width: 90%;
+          max-width: 80%;
         }
     }
 
@@ -201,7 +202,7 @@
 
           .balloonIcon {
             display: block;
-            max-width: 60%;
+            max-width: 50%;
             margin: auto;
           }
 
