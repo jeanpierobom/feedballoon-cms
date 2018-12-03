@@ -1,23 +1,34 @@
 .site-header {
   color: $main_menu_color;
   // background-image: $brand_gradient;
+  // background: $background_gradient_video;
 
-
-  background: $background_gradient, url("https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-
+  // background: $background_gradient, url("https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background: $background_gradient, url("images/background-image.jpeg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
-
-
   height: 80vh;
   min-height: 500px;
   margin: auto;
+  padding: 0 1rem;
 
-
-
+  // video {
+  //   max-width: 1200px;
+  //   width: 100%;
+  //   height: 80vh;
+  //   min-height: 500px;
+  // 	 display: block;
+  // 	 object-fit: cover;
+  // 	 filter: saturate(0%);
+  //   z-index: -1000;
+  //   mix-blend-mode: lighten;
+  //   opacity: .2;
+  //   overflow: hidden;
+  //   -webkit-border-radius: 1px;
+  //   position: absolute;
+  // }
 
   #toggle-button {
     @media screen and (min-width: $mobile_breakpoint) {
@@ -47,7 +58,7 @@
         text-decoration: none;
         text-transform: uppercase;
         color: $main_menu_color;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 300;
       }
 

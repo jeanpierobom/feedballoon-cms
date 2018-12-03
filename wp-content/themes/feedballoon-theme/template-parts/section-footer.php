@@ -1,8 +1,6 @@
 
 <div class="section-footer">
-
   <div class="wrapper">
-
     <div class="balloonIcon-box">
       <img class="balloonIcon" src="<?php echo wp_get_attachment_image_src(30, 'large')[0];?>">
     </div>
@@ -27,14 +25,14 @@
         <span class="downloadApp">DOWNLOAD</span>
 
         <div class="stores-logos-container">
-          <img class="logo-appStore logo-stores" src="<?php echo wp_get_attachment_image_src(29, 'large')[0];?>">
-          <img class="ogo-playStore logo-stores" src="<?php echo wp_get_attachment_image_src(31, 'large')[0];?>">
+          <img class="logo-appStore logo-stores" alt="apple store" src="<?php echo wp_get_attachment_image_src(29, 'large')[0];?>">
+          <img class="ogo-playStore logo-stores" alt="play store" src="<?php echo wp_get_attachment_image_src(31, 'large')[0];?>">
         </div>
 
       </div>
 
       <div class="footer-info">
-        <img class="logo-footer" src="<?php echo wp_get_attachment_image_src(36, 'large')[0];?>">
+        <img class="logo-footer" alt="feedballoon logo" src="<?php echo wp_get_attachment_image_src(36, 'large')[0];?>">
       </div>
 
     </div> <!-- fallbaclk wrapper - END -->
