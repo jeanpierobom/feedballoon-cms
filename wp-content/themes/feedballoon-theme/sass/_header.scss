@@ -41,7 +41,7 @@
   }
 
   .main-navigation {
-    padding: 1rem 3rem;
+    padding: 1rem 0rem;
     text-align: right;
 
     .menu {
@@ -51,7 +51,7 @@
 
       @media screen and (max-width: $mobile_breakpoint) {
         position: fixed;
-        right: 3rem;
+        right: 1rem;
       }
 
       a {
@@ -60,6 +60,12 @@
         color: $main_menu_color;
         font-size: 1.2rem;
         font-weight: 300;
+
+        border-bottom: 3px solid transparent;
+        transition: border-bottom .5s;
+        &:hover {
+          border-bottom-color: white;
+        }
       }
 
       li {
@@ -70,6 +76,7 @@
           display: inline-block;
           margin: 0 0.75rem;
         }
+
       }
     }
   }
