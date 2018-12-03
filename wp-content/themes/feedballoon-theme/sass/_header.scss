@@ -1,9 +1,23 @@
 .site-header {
   color: $main_menu_color;
-  background-image: $brand_gradient;
+  // background-image: $brand_gradient;
+
+
+  background: $background_gradient, url("https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
+
   height: 80vh;
   min-height: 500px;
   margin: auto;
+
+
+
 
   #toggle-button {
     @media screen and (min-width: $mobile_breakpoint) {

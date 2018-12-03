@@ -1,4 +1,5 @@
 $main_menu_color: white;
 $site_name_color: white;
-$brand_gradient: linear-gradient(to left, #FFAC1B,#F15F53,#EE3968, #E10B90);
+$brand_gradient: linear-gradient(to left, #FFAC1B, #F15F53, #EE3968, #E10B90);
+$background_gradient: linear-gradient(to left, transparentize(#FFAC1B, .1), transparentize(#F15F53, .1), transparentize(#EE3968, .1), transparentize(#E10B90, .1) );
 $mobile_breakpoint: 650px;
